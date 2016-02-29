@@ -3,3 +3,6 @@ sudo apt-get install libboost-all-dev
 
 #compile a .cxx with
 g++ -o file.o -std=gnu++11 file.cxx
+
+#compile a .c with
+gcc -o file.o file.c
